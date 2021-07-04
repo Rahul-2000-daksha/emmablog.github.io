@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:8px 8px 20px 3px rgb(51, 44, 44); 
+}
+.main{
+    margin:10px;
+}
+
+.options a{
+     margin-top: 12px;
+     width: 100%;
+      text-decoration:none;
+      color: black;
+      border: 0.5px solid white;
+      font-weight: bolder;
+      padding: 3px;
+      transition: 0.5s;
+      display: inline-block;
+      border-radius: 100px;
+}
+.options button{
+    border:5px solid rgb(12, 247, 247);
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor:pointer;
+    transition:0.5s;
+    background-color: red;
+
+}
+.chats{
+    margin-top: 20px;
+    
+}
+.options a:hover{
+    background-color:white;
+
+
+}
+.options button:hover{
+    background-color:rgb(10, 169, 209);
+}
+.img1 img{
+    
+    width: 55%;
+    height: 200%; 
+    display: inline-block;
+    float: right;
+    
+    box-shadow:5px 5px 20px 3px rgb(247, 74, 74); 
+}
+.main1{
+    margin-top: 100px;
+    display: inline-block;
+    padding: 20px;
+}
+.specility{
+    font-size: 35px;
+    height: 100%;
+    width:40%;
+    margin-top: 5px;
+    padding-top:2px;
+    display: inline-block;
+    float: left;
+    box-shadow:5px 5px 10px 3px rgb(49, 42, 49); 
+}
+
+.main2{
+   margin-top: 100px;
+    
+    margin-top: 100px;
+}
+.main2 .img2 img{
+   height:100%;
+    width: 37.5%;
+    float: left;
+    display:inline-block;
+    padding-top: 60px;
+    box-shadow:8px 8px 20px 1px rgb(240, 235, 235); 
+
+
+}
+.main2 .about{
+    font-size:35px;
+    width:60%;
+    padding-top: 50px;
+    display: inline-block;
+    float:right;
+    height: 500px;
+    box-shadow:5px 5px 10px 3px rgb(49, 43, 49); 
+}
